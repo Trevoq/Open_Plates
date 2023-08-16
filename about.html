@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor</title>
+    <link rel="stylesheet" href="text.css">
+    <style>
+        *{
+            margin: auto;
+        }
+        nav{
+            padding: 10px;
+            background:#fff ;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+        }
+        nav button{
+            border: 1px solid #fff;
+            padding: 10px;
+            background: #fff;
+            font-size: 1em;
+            color: #555;
+        }
+        nav button:hover{
+            transition: 0.5s;
+            background-color:#f30;
+            border-radius: 5px;
+            animation: unset;
+            color: #222;
+
+        }
+        #hero{
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/tlp.jpg);
+            background-size: cover;
+            height: 40vh;
+            background-attachment: fixed;
+        }
+        #hero h1,p,buttton{
+            padding: 10px;
+        }
+        #hero #ty{
+            font-size: 5em;
+            padding-top: 100px;
+            color: #eee;
+        }
+        #hero p{
+            color: #eee;
+            font-size: 1.8em;
+            padding-bottom: 20px;
+        }
+        #hero button{
+            background: transparent;
+            border: 2px solid;
+            color: #eee;
+            padding: 15px;
+            cursor: pointer;
+            width: 150px;
+        }
+        footer{
+            padding: 10px;
+            background:#222 ;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+            color: #eee;
+        }
+        footer button{
+            background: #222;
+            border: none;
+            color: #eee;
+        }
+        #about{
+            padding: 20px;
+            padding-top: 40px;
+        }
+        .flexcontainer{
+            display: flex;
+        }
+        #ld, #rd {
+            height: 60vh;
+        }
+        #ld h1{
+            font-size: 3em;
+            border-left: 5px solid rgb(58, 57, 57);
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+        #ld p{
+            font-size: 1.5em;
+        }
+        #ld button{
+            background: #f30;
+            border: none;
+            color: #eee;
+            padding: 10px;
+            width: 100px;
+            cursor: pointer;
+        }
+        #rd img{
+            width: 900px;
+            height: 400px;
+            object-fit: contain;
+        }
+        #about h3{
+           padding: 10px;
+           color: maroon;
+        }
+        #about hr{
+            border:1px solid maroon;
+            width: 100px;
+        }
+        .flexcontainer{
+            display: flex;
+            padding-top: 40px;
+        }
+        #yg{
+            display: flex;
+            padding-top: 45px;
+            text-align: center;
+        }
+        #services h3{
+            padding: 10px;
+           color: maroon;
+           text-align: center;
+        }
+        #services hr{
+            border: 1px solid maroon;
+            width: 100px;
+        }
+        .cards img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+        .cards button{
+            background: #f30;
+            border: none;
+            color: #eee;
+            padding: 10px;
+            width: 100px;
+            cursor: pointer; 
+        }
+        .cards{
+            width:400px ;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="left">
+            <h1>O_P</h1>
+        </div>
+        <div id="right">
+            <a href="index.html"><button>Home</button></a>
+            <a href="about.html"><button>About</button></a>
+            <a href="gallery.html"><button>Gallery</button></a>
+            <a href="contact.html"><button>Contact</button></a>
+        </div>
+    </nav>
+    <section id="hero">
+        <h1 id="ty">ABOUT_ME</h1>
+    </section>
+    <section id="about">
+        <h3>A Food-Hub Economist,Writer,Dancer,Software-Engineer And Developer</h3>
+        <hr>
+        <div class="flexcontainer">
+            <div id="ld">
+                <h1>Im A Philantropist At Open_Plates</h1>
+                <p>Its One A Food Hub That Caters For The Comfort Of Your Satisfaction Yet Reach In Healthy Benefits But Also A Place That Many Get Employed To Earn A Living</p>
+        <a href="doc/nvi.pdf.xlsx"><button>GET TO US</button></a>
+            </div>
+            <div id="rd">
+                <img src="img/tlp.jpg" alt="">
+            </div><br>
+        </div>
+    </section>
+    <section id="services">
+        <h3>Services</h3>
+<hr>
+ <div id="yg">
+    <div class="cards">
+        <img src="img/tlp.jpg" alt="">
+            <h2>Seasoning</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur doloribus at quas veniam?</p><br>
+            <button>More</button>
+     </div>
+     <div class="cards">
+        <img src="img/tlp.jpg" alt="">
+            <h2>Pastry</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur doloribus at quas veniam?</p><br>
+            <button>More</button>
+     </div>
+     <div class="cards">
+        <img src="img/tlp.jpg" alt="">
+            <h2>Simering</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur doloribus at quas veniam?</p><br>
+            <button>More</button>
+     </div>
+ </div>
+
+
+
+    </section>
+    <footer>
+        <div id="left">
+            <p>&copyreserved@O_P</p>
+        </div>
+        <div id="right">
+            <button>Home</button>
+            <button>About</button>
+            <button>Gallery</button>
+            <button>Contact</button>
+        </div>
+    </footer>
+    
+</body>
+</html>

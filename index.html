@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor</title>
+    <link rel="stylesheet" href="text.css">
+    <style>
+        *{
+            margin: auto;
+        }
+        nav{
+            padding: 10px;
+            background:#fff ;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+        }
+        nav button{
+            border: 1px solid #fff;
+            padding: 10px;
+            background: #fff;
+            font-size: 1em;
+            color: #555;
+        }
+        nav button:hover{
+            transition: 0.5s;
+            background-color:#f30;
+            border-radius: 5px;
+            animation: unset;
+            color: #222;
+
+        }
+        #hero{
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/tlp.jpg);
+            background-size: cover;
+            height: 90vh;
+        }
+        #hero h1,p,buttton{
+            padding: 10px;
+        }
+        #hero #ty{
+            font-size: 5em;
+            padding-top: 100px;
+            color: #eee;
+        }
+        #hero p{
+            color: #eee;
+            font-size: 1.8em;
+            padding-bottom: 20px;
+        }
+        #hero button{
+            background: transparent;
+            border: 2px solid;
+            color: #eee;
+            padding: 15px;
+            cursor: pointer;
+            width: 150px;
+        }
+        footer{
+            padding: 10px;
+            background:#222 ;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+            color: #eee;
+        }
+        footer button{
+            background: #222;
+            border: none;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="left">
+            <h1>O_P</h1>
+        </div>
+        <div id="right">
+            <a href="index.html"><button>Home</button></a>
+            <a href="about.html"><button>About</button></a>
+            <a href="gallery.html"><button>Gallery</button></a>
+            <a href="contact.html"><button>Contact</button></a>
+        </div>
+    </nav>
+    <section id="hero">
+        <h1 id="ty">Open_Plates Welcomes You</h1>
+        <p>Its One A Food Hub That Caters For The Comfort Of Your Satisfaction Yet Reach In Healthy Benefits</p>
+        <button>GET TO US</button>
+    </section>
+    <footer>
+        <div id="left">
+            <p>&copyreserved@O_P</p>
+        </div>
+        <div id="right">
+            <button>Home</button>
+            <button>About</button>
+            <button>Gallery</button>
+            <button>Contact</button>
+        </div>
+    </footer>
+    
+</body>
+</html>
